@@ -1,0 +1,104 @@
+<section id="section1">
+            <div class="stuff pt-5">
+      <div class="container">
+        <div class="row align-items-center ">
+          <div class="col-lg-5 mb-4 text-center text-md-start">
+            <div class="text">
+              <h4 class="mb-5">The Spirt of Digital Agency</h4>
+              <p class="text-black-50 fs-6">
+                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget
+                tincidunt.
+              </p>
+              <a class="btn rounded-pill main-btn" href="#">More About Us</a>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="image">
+              <img class="img-fluid" src="images/Image 1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        </section>
+        <section id="section2">
+                <div class="stuff pt-5">
+      <div class="container">
+        <div class="row align-items-center ">
+          <div class="col-lg-4 mb-4 text-center text-md-start">
+            <div class="text">
+              <h4 class="mb-5" style="font-size: 45px;">Anything you need, we've got you covered</h4>
+              <a class="btn rounded-pill main-btn" href="#">Get in Touch </a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="image position-relative">
+              <img class="img-fluid" src="images/Rectangle 2.png" alt="" />
+              <img class="img-fluid brif position-absolute" src="images/Briefcase Icon.
+png" alt="" />
+                <div class="serv text-center">
+              <h4 class=" title mb-3 mt-3">Web & GRAPHIC <br> DESIGN</h4>
+              <p class="text-black-50 lh-lg " style="max-width: 250px;">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget
+                tincidunt.
+              </p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="image position-relative ">
+              <img class="img-fluid" src="images/Rectangle 1.png" alt="" />
+              <img class="img-fluid position-absolute" src="images/Code Icon.png" alt="" />
+              <div class="serv  text-center">
+              <h4 class=" title mb-3 mt-3">Web & App <br> Development</h4>
+              <p class="text-black-50 lh-lg" style="max-width: 250px;">
+                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget
+                tincidunt.
+              </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        </section>
+		
+		*--------------------------------------------------------*
+		
+		.stuff .text h4 {
+    font-size: 70px !important;
+    font-family: "Worksans",sans-serif !important;
+    color: $nav-linkColor  !important;
+}
+.main-btn {
+    background-color: $btnColor;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+#section2 .position-absolute {
+        position: absolute !important;
+    left: 40px;
+    top: 40px;  
+}
+#section2 h4 {
+    font-size: 45px !important;
+        font-family: "Worksans", sans-serif !important;
+        color: $nav-linkColor !important;
+}
+#section2 .title {
+    font-size: 28px !important;
+        font-family: "Worksans", sans-serif !important;
+        color: $nav-linkColor !important;
+      p  {
+                color: $nav-linkColor;
+        }
+}
+#section2 .image .serv h4 {
+    position: absolute;
+    top: 120px !important;
+        left: 20px !important;
+}
+#section2 .image .serv p {
+    position: absolute;
+   top: 220px !important;
+    left: 20px !important;
+}

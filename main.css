@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "WorkSans-Regular";
+  src: url("/Fonts/WorkSans-Regular.ttf");
+}
+@font-face {
+  font-family: "WorkSans-SemiBold";
+  src: url("/fonts/WorkSans-SemiBold.ttf");
+}
+.navbar ul .nav-link.active {
+  color: #314584;
+  font-family: "WorkSans", sans-serif;
+  font-size: 24px;
+}
+
+.stuff .text h4 {
+  font-size: 70px !important;
+  font-family: "Worksans", sans-serif !important;
+  color: #314584 !important;
+}
+
+.main-btn {
+  background-color: #ff3946;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+#section2 .position-absolute {
+  position: absolute !important;
+  left: 40px;
+  top: 40px;
+}
+
+#section2 h4 {
+  font-size: 45px !important;
+  font-family: "Worksans", sans-serif !important;
+  color: #314584 !important;
+}
+
+#section2 .title {
+  font-size: 28px !important;
+  font-family: "Worksans", sans-serif !important;
+  color: #314584 !important;
+}
+#section2 .title p {
+  color: #314584;
+}
+
+#section2 .image .serv h4 {
+  position: absolute;
+  top: 120px !important;
+  left: 20px !important;
+}
+
+#section2 .image .serv p {
+  position: absolute;
+  top: 220px !important;
+  left: 20px !important;
+}
+
+#section3 {
+  background-color: white !important;
+}
+#section3 h4 {
+  font-size: 28px !important;
+  font-family: "Worksans", sans-serif !important;
+  color: #314584 !important;
+}
+
+footer {
+  color: #ff3946;
+  background-color: #314584;
+  font-size: 49px;
+  font-family: "Worksans", sans-serif !important;
+}
+footer ul {
+  font-size: 18px;
+  font-family: "Worksans", sans-serif !important;
+  color: white;
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */
